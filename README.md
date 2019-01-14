@@ -28,6 +28,5 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-###
-开发人员：
+### 开发人员
     mask
