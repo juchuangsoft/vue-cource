@@ -1,10 +1,20 @@
+<!--
+ * @Author: your name
+ * @Date: 2019-01-09 21:03:43
+ * @LastEditTime: 2020-10-12 01:38:45
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \vue-cource\src\App.vue
+-->
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link :to="{name:'home'}">Home</router-link> |
+      <router-link :to="{name:'about'}">About</router-link>
     </div>
     <router-view/>
+    <router-view name="email"/>
+    <router-view name="tel"/>
   </div>
 </template>
 
